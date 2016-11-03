@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423140上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-10-13T00:00:00+08:00</updated><entry><title>2016.10.13第五週</title><link href="./20161013di-wu-zhou.html" rel="alternate"></link><published>2016-10-13T00:00:00+08:00</published><updated>2016-10-13T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-10-13:./20161013di-wu-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423140上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-10-13T00:00:00+08:00</updated><entry><title>2016.10.13第五週</title><link href="./20161013di-wu-zhou.html" rel="alternate"></link><updated>2016-10-13T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-10-13:./20161013di-wu-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;刪除指令:git rm -rf
 參考的連結https://blog.longwin.com.tw/2015/05/git-submodule-add-remove-2015/&lt;/p&gt;
 &lt;p&gt;這禮拜的作業就是小組的blog要出來及個人的要新增&lt;/p&gt;
 &lt;p&gt;小組:https://40423106.github.io/2016fallcadp_ag4/blog/index.html&lt;/p&gt;
-&lt;p&gt;個人:https://40423107.github.io/2016fallcadp_hw&lt;/p&gt;</summary><category term="w5"></category></entry><entry><title>2016.10.06第四週</title><link href="./20161006di-si-zhou.html" rel="alternate"></link><published>2016-10-06T00:00:00+08:00</published><updated>2016-10-06T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-10-06:./20161006di-si-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;個人:https://40423107.github.io/2016fallcadp_hw&lt;/p&gt;</summary><category term="w5"></category></entry><entry><title>2016.10.06第四週</title><link href="./20161006di-si-zhou.html" rel="alternate"></link><updated>2016-10-06T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-10-06:./20161006di-si-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;2016.10.06&lt;/p&gt;
 &lt;p&gt;機械設計系的目標:&lt;/p&gt;
@@ -16,7 +16,7 @@
 &lt;p&gt;協同產品設計=computer,network,tools,project&lt;/p&gt;
 &lt;p&gt;工業4.0=客製化,體貼&lt;/p&gt;
 &lt;p&gt;設proxy=proxy.mde.tw 3128&lt;/p&gt;
-&lt;p&gt;近端裝pelican: pip install pelican&lt;/p&gt;</summary><category term="w4"></category></entry><entry><title>2016.09.29第三週</title><link href="./20160929di-san-zhou.html" rel="alternate"></link><published>2016-09-29T00:00:00+08:00</published><updated>2016-09-29T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-09-29:./20160929di-san-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;近端裝pelican: pip install pelican&lt;/p&gt;</summary><category term="w4"></category></entry><entry><title>2016.09.29第三週</title><link href="./20160929di-san-zhou.html" rel="alternate"></link><updated>2016-09-29T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-09-29:./20160929di-san-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;先到&lt;font color="#990099"&gt; https://github.com/mdecourse/2016fallcadp/wiki/Solvespace_Parts &lt;/font&gt;了解這篇文章&lt;/p&gt;
 &lt;p&gt;diameter直徑 oriented定位 respectively分別 plane面 equivalent相當地 construct建構 Zoom放大&lt;/p&gt;
@@ -52,7 +52,10 @@
 &lt;p&gt;對稱放置圓，選擇每個圓的圓心。然後選擇約束→對稱。對稱約束繪製成一對品紅色箭頭，指向向內。&lt;/p&gt;
 &lt;p&gt;列表中的每個條目對應於部分的基團。第一組是在引用; 這包括諸如XY平面和原點。的參考文獻中自動創建的，並且不能修改。第一個真正的組G002-草圖平面內; 當我們開始畫，我們進行了G002繪圖。這是一個草圖功能於工作平面基團，其中該工作平面是平行於XY平面，並以原點為中心。&lt;/p&gt;
 &lt;p&gt;這個實體模型可以以多種不同的方式使用。我們可以只看著它，或導出用文件→導出位圖的截圖。或者，我們可以導出隱藏線移除的矢量繪圖，使用文件→導出2D視圖。我們可以通過選擇一個面的模型（以定義節面）的，然後選擇文件→導出2D截面導出固體的截面。&lt;/p&gt;
-&lt;p&gt;我們還可以出口本身的三維實體模型，無論是作為一個三角形網格或作為STEP文件。大多數的CAM或快速原型製作軟件希望某種類型的實體模型作為輸入。一般來說，最好盡可能使用STEP文件，因為它們代表了曲線和曲面的準確（對三角形網格，這只是一個近似值）。&lt;/p&gt;</summary><category term="w3"></category></entry><entry><title>2016.09.22第二週</title><link href="./20160922di-er-zhou.html" rel="alternate"></link><published>2016-09-22T00:00:00+08:00</published><updated>2016-09-22T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-09-22:./20160922di-er-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;我們還可以出口本身的三維實體模型，無論是作為一個三角形網格或作為STEP文件。大多數的CAM或快速原型製作軟件希望某種類型的實體模型作為輸入。一般來說，最好盡可能使用STEP文件，因為它們代表了曲線和曲面的準確（對三角形網格，這只是一個近似值）。&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/190109097" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/190109097"&gt;2016 11 03 23 06 18 591&lt;/a&gt; from &lt;a href="https://vimeo.com/user46449861"&gt;40423140&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="w3"></category></entry><entry><title>2016.09.22第二週</title><link href="./20160922di-er-zhou.html" rel="alternate"></link><updated>2016-09-22T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-09-22:./20160922di-er-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;2016.09.22 NOTE&lt;/p&gt;
 &lt;p&gt;1.先到 &lt;font color="#990099"&gt;https://github.com/mdecourse &lt;/font&gt; 的 2016cadp 按 Fork&lt;/p&gt;
@@ -67,7 +70,7 @@
 &lt;p&gt;7.在 40423107.github.io倉儲的左上角有一個 Create new file點進去
 新增&lt;font color="#990099"&gt;40423107.github.io.index.html &lt;/font&gt;就會有自己的網頁了&lt;/p&gt;
 &lt;p&gt;8.進入 &lt;font color="#990099"&gt;https://github.com/mdecourse/2016fallcadp/wiki &lt;/font&gt;的上課筆記 &lt;br /&gt;
-下載繪圖軟體練習零件繪製:&lt;font color="#990099"&gt; http://solvespace.com/bracket.pl &lt;/font&gt;&lt;/p&gt;</summary><category term="w2"></category></entry><entry><title>2016.09.15第一週</title><link href="./20160915di-yi-zhou.html" rel="alternate"></link><published>2016-09-15T00:00:00+08:00</published><updated>2016-09-15T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-09-15:./20160915di-yi-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="w1"></category></entry><entry><title>2016Fall 簡報與網誌系統</title><link href="./2016fall-jian-bao-yu-wang-zhi-xi-tong.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統.&lt;/p&gt;
+下載繪圖軟體練習零件繪製:&lt;font color="#990099"&gt; http://solvespace.com/bracket.pl &lt;/font&gt;&lt;/p&gt;</summary><category term="w2"></category></entry><entry><title>2016.09.15第一週</title><link href="./20160915di-yi-zhou.html" rel="alternate"></link><updated>2016-09-15T00:00:00+08:00</updated><author><name>40423140黃子晏</name></author><id>tag:,2016-09-15:./20160915di-yi-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="w1"></category></entry><entry><title>2016Fall 簡報與網誌系統</title><link href="./2016fall-jian-bao-yu-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統.&lt;/p&gt;
 
 
 &lt;p&gt;網誌 Category&lt;/p&gt;
