@@ -2,7 +2,8 @@
 <html lang="en"
 >
 <head>
-    <title>2017.01.10第16週 - 40423140上課報告</title>
+    <title>Search - 40423140上課報告
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,21 +167,15 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./20170110di-16zhou.html">
 
-        <meta name="author" content="40423140黃子晏" />
-        <meta name="keywords" content="w16" />
-        <meta name="description" content="3D printer" />
+        <meta name="author" content="40423140" />
 
+    <!-- Open Graph tags -->
         <meta property="og:site_name" content="40423140上課報告" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="2017.01.10第16週"/>
-        <meta property="og:url" content="./20170110di-16zhou.html"/>
-        <meta property="og:description" content="3D printer"/>
-        <meta property="article:published_time" content="2017-01-10" />
-            <meta property="article:section" content="Misc" />
-            <meta property="article:tag" content="w16" />
-            <meta property="article:author" content="40423140黃子晏" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="40423140上課報告"/>
+        <meta property="og:url" content="."/>
+        <meta property="og:description" content="40423140上課報告"/>
 
 
     <!-- Bootstrap -->
@@ -261,7 +256,7 @@ init_mathjax();
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li class="active">
+                        <li >
                             <a href="./category/misc.html">Misc</a>
                         </li>
             </ul>
@@ -283,42 +278,7 @@ init_mathjax();
     <div class="row">
         <div class="col-sm-9">
 
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="./20170110di-16zhou.html"
-                       rel="bookmark"
-                       title="Permalink to 2017.01.10第16週">
-                        2017.01.10第16週
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-01-10T00:00:00+08:00"> 週二 10 一月 2017</time>
-    </span>
-            <span class="label label-default">By</span>
-            <a href="./author/40423140huang-zi-yan.html"><i class="fa fa-user"></i> 40423140黃子晏</a>
-
-
-
-<span class="label label-default">Tags</span>
-	<a href="./tag/w16.html">w16</a>
-    
-</footer><!-- /.post-info -->                    </div>
-                </div>
-                <p><b><font>3D printer</font></b></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NUuy3NM7T94" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <!-- /.entry-content -->
-        </article>
-    </section>
-
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -421,5 +381,20 @@ init_mathjax();
 <script src="./theme/js/respond.min.js"></script>
 
 
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <script type="text/javascript" src="./theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="./theme/tipuesearch/tipuesearch.min.js"></script>
+    <!-- 導入 local Tipue search 所需要的 tipuesearch_content.js -->
+    <script type="text/javascript" src="./tipuesearch_content.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'static',
+        'show': 10,
+        'minimumLength': 2,
+        'newWindow': false
+      });
+    });
+    </script>
 </body>
 </html>
